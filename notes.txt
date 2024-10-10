@@ -1,0 +1,6 @@
+django-admin startproject demo
+python manage.py startapp myapp
+- add "myapp" to settings.py
+- main files: urls and views
+- urls - url routes to views
+- demo/urls.py -- configure route to myapp.py
