@@ -1,0 +1,33 @@
+/* static/css/style.css */
+
+body {
+  background-color: #3650a3; /* Nice blue background */
+  font-family: Arial, sans-serif;
+  color: #ffffff; /* Set default font color to white for readability */
+}
+
+h1 {
+  color: #f0f0f0; /* Light font color for better contrast with the blue background */
+  font-size: 2.5em; /* Adjust the size of the heading */
+  text-align: center; /* Center the heading */
+  margin-top: 20px;
+}
+
+form {
+  color: #ffffff; /* Set the form text color to white */
+  font-size: 1.2em; /* Slightly larger font size for the form elements */
+}
+
+button {
+  background-color: #f0f0f0; /* Light background color for buttons */
+  color: #333; /* Dark text color for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0; /* Slightly darker button background on hover */
+}

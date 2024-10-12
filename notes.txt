@@ -4,3 +4,24 @@ python manage.py startapp myapp
 - main files: urls and views
 - urls - url routes to views
 - demo/urls.py -- configure route to myapp.py
+
+run:
+python manage.py runserver
+
+any time you change database models:
+python manage.py makemigrations
+python manage.py migrate
+
+manage admin panel:
+python manage.py createsuperuser
+
+tasks:
+change the html
+make an option to sign in with name and password
+and store it in database
+spoji sa posgre
+find output to export whole codebase to chatgpt or gemini
+
+access data saved in sqlite3(check)
+find specific database made in yt video(check)
+add css and js
